@@ -1,10 +1,6 @@
 minimum_age = 10
 x = ("vsvnsnvosobsnbo")
 print(x)
-age = int(input("How old are you?"))
-print("you are" , age ,"years old" )
-if age < minimum_age:
-    print("you are too young!")
 name = input("what is your name?")
 print("your name is" , name , )
 
@@ -37,6 +33,7 @@ while True:
     wooden_sword = 10
     stone_sword = 20
     print("you are in TN!")
+    
     choice = input("You find a wooden sword. pick it up? (y or n)")
     if choice == "y" or choice == "Y":
         weapon = wooden_sword
@@ -53,22 +50,26 @@ while True:
     if choice == "y" or choice == "Y":
         health += 10
     print("the enemy came back!")
+    
     choice = input("would you like to attack? (y or n)")
     if choice == "y" or choice == "Y":
         Enemy_health -= 10
         print ("the enemy fell in a hole and died!hooray!")
         Enemy_health -= 80
-    choice = input("you find a house. go in?(y or n)")
-    if choice == "y" or choice == "Y":
-        print("you are in the house")
-        choice = input("you find a chest.open it?(y or n)")
-    if choice == "y" or choice == "Y":
-            weapon = stone_sword
-            print("you now have a stone_sword")
-            break
     else:
         print("the enemy hit you and you fell in a hole and died! NO!")
         health -=  90
         continue
-    
+        
+    choice = input("you find a house. go in?(y or n)")
+    if choice == "y" or choice == "Y":
+        print("you are in the house")
+    else:
+        print("you are not in the house")
+        
+    choice = input("you find a chest.open it?(y or n)")        
+    if choice == "y" or choice == "Y":
+            weapon = stone_sword
+            print("you now have a stone_sword")
+            break
        
