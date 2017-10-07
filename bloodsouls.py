@@ -23,7 +23,8 @@ while number != 1551:
         continue
     else:
         break
-        
+ 
+print("you are in TN") 
 while True:
     
     weapon = ("stone_sword")
@@ -32,7 +33,6 @@ while True:
     Enemy_health = 100
     wolf_health = 20
     damage =  weapon
-    print("you are in TN")
     choice = input("you find a enemy attack?you have to say yes sorry(y)")
     if choice =="y" or choice =="Y":
         while Enemy_health > 0 and health > 0:
