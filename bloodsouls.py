@@ -24,10 +24,11 @@ while number != 1551:
     else:
         break
  
-print("you are in TN") 
+print("you are in TN")
+print("you are a knight with a iorn_sword")
 while True:
     
-    weapon = ("stone_sword")
+    weapon = ("iorn_sword")
     health = 100
     fist = 1
     Enemy_health = 100
