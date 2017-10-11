@@ -87,9 +87,9 @@ while True:
     choice = input("you find a wolf.attack?(y or n)")
     if choice == "y"or choice == "Y":
             print("you hit the wolf in the head and it died!")
-            print("you win!")
+            print("you win! or did you?")
             break
     else:
             print("the wolf hit it's head on accident")
-            print("you win!")
+            print("you win! or did you?")
             break
