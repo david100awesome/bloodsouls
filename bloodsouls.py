@@ -16,19 +16,19 @@ maximum_number = 1552
 
 number = 0
 print(x)
-while number != 1551:
-    number = int(input("what is the passcode?"))
-    if number != 1551:
-        print ("wrong number")
+while number != '1551':
+    number = (input("what is the passcode?"))
+    if number != '1551':
+        print ("wrong passcode")
         continue
     else:
         break
  
 print("you are in TN")
-print("you are a knight with a iorn_sword")
+print("you are a knight with a iron_sword")
 while True:
     
-    weapon = ("iorn_sword")
+    weapon = ("iron_sword")
     health = 100
     fist = 1
     Enemy_health = 100
@@ -60,10 +60,10 @@ while True:
     else:
         print("I told you you can't do that!")
         continue
+    print("you kiled the enemy!")
     choice = input("you find a health potion drink it? (y or n)")
     if choice == "y" or choice == "Y":
         health = 100
-
     
     
     
