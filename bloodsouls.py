@@ -24,7 +24,7 @@ while number != '1551':
     else:
         break
  
-print("you are in TN")
+print("you are in St Charles Place")
 print("you are a knight with a iron_sword")
 while True:
     
